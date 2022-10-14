@@ -130,6 +130,9 @@ img {
 
  /* tablet */
 @media screen and (max-width: 768px) {
+    body{
+        width: 768px;
+    }
     .container{
         width: 768px;
     }
@@ -145,23 +148,13 @@ img {
     body{
         width: 480px;
     }
-    .site-header{
-        width: 480px;
-        }
-
-    .text-center{
-        width: 480px;
-        }
-
     .row{
         flex-direction: column;
-        }
-       
-    h2{
+        justify-content: center;
+        align-items: center;
         width: 480px;
-        }
-    
-    .why-us{
+    }
+    .text-center{
         width: 480px;
     }
 }
