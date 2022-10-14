@@ -130,14 +130,8 @@ img {
 
  /* tablet */
 @media screen and (max-width: 768px) {
-    body{
-        width: 768px;
-    }
-    .container{
-        width: 768px;
-    }
-    .site-header{
-    width: 768px;
+    .container {
+        width: 100%;
     }
 
 }
@@ -145,16 +139,31 @@ img {
 
 /* mobile */
 @media screen and (max-width:480px) {
-    body{
-        width: 480px;
-    }
     .row{
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        width: 480px;
     }
-    .text-center{
-        width: 480px;
+    .container{
+        width: 100%;
+    }
+    .steps .col{
+        width: 90%;
+        padding-bottom: 70px;
+    }
+    .why-us .col-right {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .lessons .col {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    .container h2{
+        width: 80%;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .why-us .col-left {
+        width: 100%;
     }
 }
